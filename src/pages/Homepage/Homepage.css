@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+  }
+  
+  /* Homepage.css */
+
+/* Stile per l'intera pagina */
+
+  
+  /* Stile per la barra di navigazione */
+  .home__navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    
+  
+  }
+  
+  /* Stile per il corpo principale */
+  .home__body {
+    flex-grow: 1; /* Fai espandere questo elemento per occupare lo spazio rimanente */
+    max-height: calc(100vh - 80px); /* 80px è l'altezza stimata della barra di navigazione */
+    padding: 20px;
+
+  }
+  
+  /* Stile per il footer */
+  .home__footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        color: white;
+        height: 8vh;
+      }
+  
+  
+  /* Stile per i componenti interni */
+  /* Puoi applicare stili specifici ai componenti interni come Navbar, Homebody e Footer qui */
+  /* Ad esempio:
+  .home__navbar > Navbar {
+    margin: 0 auto; // Centra il componente nella barra di navigazione
+  }
+  
+  .home__body > Homebody {
+    background-color: white; // Colore di sfondo per il corpo principale
+    border-radius: 8px; // Angoli arrotondati
+    padding: 20px;
+  }
+  
+  .home__footer > Footer {
+    text-align: center; // Allinea il testo al centro nel footer
+  }
+  */
+  

@@ -1,0 +1,29 @@
+L'utente si collega alla pagina di login. Se è il suo primo accesso deve registrarsi prima, altrimenti procede al login normalmente. La registrazione consente l'acquisizione dei dati dell'utente. Ogni utente avrà una sua vista al db. il db consiste in un collezione di stanze con off-topic diversi( cinema, manga e via dicendo). l'utente può unirsi a qualsiasi stanza voglia e comunicare con altri utenti presenti nella stanza. Può abbandonare la stanza e fare il logout dall'app. L'utente può creare una stanza e invitare altri utenti.
+
+
+
+realm: react-keycloak
+user: react-user
+client: myclient
+Per accedere a user http://localhost:8080/realms/react-keycloak/account/
+
+
+https://www.youtube.com/watch?v=u17RsUOaqBE
+https://mui.com/material-ui/material-icons/
+
+
+Installa node.js;
+installa npm;
+poi bisogna installare npx con questo comando npm install -g(sta per global) npx;
+Installa yarn con il comando npm install yarn
+A questo punto bisogna creare la cartella dove andrà il progetto e posizionarci in essa;
+In questa cartella, da shell, avviare il comando npx create-react-app "nome_progetto" così verrà creato un progetto react;
+npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+npm install react-router-dom
+npm install keycloak-js
+
+
+Viene usato mongo db nel progetto. viene installato con il comando:
+npm i express mongoose
+viene installato un server (per node.js) nodemon con il comando npm install -g nodemon. Vedere parte 4 minuto 8
+ 

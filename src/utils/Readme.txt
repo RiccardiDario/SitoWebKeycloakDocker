@@ -1,0 +1,1 @@
+utils: Contiene file di utilità come funzioni di API (api.js) per interagire con i servizi back-end e funzioni di supporto (helpers.js) che possono essere utilizzate in tutto il progetto

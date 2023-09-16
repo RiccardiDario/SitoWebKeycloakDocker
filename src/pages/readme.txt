@@ -1,0 +1,1 @@
+pages: Contiene i componenti che rappresentano le pagine dell'app. Anche qui, i componenti sono organizzati in sottodirectory, ognuna rappresenta una pagina diversa

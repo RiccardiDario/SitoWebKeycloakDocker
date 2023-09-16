@@ -1,0 +1,1 @@
+components: Contiene componenti React riutilizzabili, organizzati in sottodirectory per ciascun componente. Ogni sottodirectory contiene il file .js per il componente e un file .css per lo stile associato.

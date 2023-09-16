@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  keycloak:
+    image: quay.io/keycloak/keycloak:22.0.1
+    env_file:
+      - keycloak/.env
+    restart: always
+    command: start-dev
+    ports:
+      - "8080:8080"
+    
