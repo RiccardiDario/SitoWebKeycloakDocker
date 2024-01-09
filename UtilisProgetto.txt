@@ -1,7 +1,3 @@
-L'utente si collega alla pagina di login. Se è il suo primo accesso deve registrarsi prima, altrimenti procede al login normalmente. La registrazione consente l'acquisizione dei dati dell'utente. Ogni utente avrà una sua vista al db. il db consiste in un collezione di stanze con off-topic diversi( cinema, manga e via dicendo). l'utente può unirsi a qualsiasi stanza voglia e comunicare con altri utenti presenti nella stanza. Può abbandonare la stanza e fare il logout dall'app. L'utente può creare una stanza e invitare altri utenti.
-
-
-
 realm: react-keycloak
 user: react-user
 client: myclient
